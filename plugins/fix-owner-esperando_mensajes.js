@@ -1,4 +1,4 @@
-/* Codigo hecho por @Fabri115 y mejorado por BrunoSobrino */
+هههههههههههههه/* Codigo hecho por @Fabri115 y mejorado por BrunoSobrino */
 
 import { readdirSync, unlinkSync, existsSync, promises as fs, rmSync } from 'fs';
 import path from 'path';
@@ -40,6 +40,6 @@ const handler = async (m, { conn, usedPrefix }) => {
 };
 handler.help = ['del_reg_in_session_owner'];
 handler.tags = ['owner'];
-handler.command = /^(del_reg_in_session_owner|dsowner|clearallsession)$/i;
+handler.command = /^(المطور|المالك)$/i;
 handler.rowner = true
 export default handler;
