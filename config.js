@@ -11,45 +11,21 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['201224563219', '𝑁𝐴𝑅𝑈𝑇𝛩', true],
-  ['201159106301', '𝐿𝐼𝑇𝐸', true],
-  ['201224563219', '𝑁𝐴𝑅𝑈𝑇𝛩', true],
-  ['201159106301', '𝐿𝐼𝑇𝐸', true],
-  ['201159106301', '𝐿𝐼𝑇𝐸', true],
-  ['201159106301', '𝐿𝐼𝑇𝐸', true],
-  ['201224563219', '𝑁𝐴𝑅𝑈𝑇𝛩', true],
-  ['201224563219', '𝑁𝐴𝑅𝑈𝑇𝛩', false],
-  ['201159106301', '𝐿𝐼𝑇𝐸', true],
-  ['201159106301', '𝐿𝐼𝑇𝐸', true],
-  ['21224563219','𝑁𝐴𝑅𝑈𝑇𝛩', true],
-  ['201159106301'],
-  ['201159106301'],
-  ['201159106301'],
-  ['201159106301'],
-  ['201159106301'],
-  ['201159106301'],
-  ['201159106301'],
-  ['201159106301'], 
-  ['201159106301'],  
-  ['201159106301'],
-  ['201159106301'],
-  ['201159106301'],
-  ['201224563219'], 
-  ['201224563219'], 
-  ['201224563219'],
-  ['201224563219']
+  ['201224563219', '👑 𝑁𝐴𝑅𝑈𝑇𝛩 👑', true],
+  ['201159106301', '🛡️ 𝐿𝐼𝑇𝐸 🛡️', true],
+  ['201280244814', '☠️𝐿𝐼𝑇𝐸²☠️', true]‚
 ];
 
-global.suittag = ['201224563219'];
-global.prems = ['201159106301'];
+global.suittag = ['201159106301'];
+global.prems = ['201224563219'];
 
-global.packname = 'Sticker';
-global.author = 'Ί Т Λ Ꮯ Ή Ί  - Bot';
-global.wm = 'Ί Т Λ Ꮯ Ή Ί  - Bot';
-global.titulowm = 'Ί Т Λ Ꮯ Ή Ί  - Bot';
-global.titulowm2 = `Ί Т Λ Ꮯ Ή Ί  - Bot`
-global.igfg = 'Ί Т Λ Ꮯ Ή Ί  - Bot';
-global.wait = '*[ ⏳ ] انتظر قليلا...*';
+global.packname = '𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇';
+global.author = '𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇';
+global.wm = '𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇';
+global.titulowm = '𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇';
+global.titulowm2 = `𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇`
+global.igfg = '𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇';
+global.wait = '*[ ⏳ ] 🐒جار التحميل ياورع...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
@@ -69,15 +45,15 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nThe Mystic - Bot`;
-global.gt = 'The Mystic - Bot';
-global.mysticbot = 'The Mystic - Bot';
-global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
-global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
-global.waitt = '*[ ⏳ ] Cargando...*';
-global.waittt = '*[ ⏳ ] Cargando...*';
-global.waitttt = '*[ ⏳ ] Cargando...*';
-global.nomorown = '201224563219';
+global.wm2 = `${dia} ${fecha}\n𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇`;
+global.gt = '𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇';
+global.mysticbot = '𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇';
+global.md = 'https://whatsapp.com/channel/0029VaTTAnJF6sn1CkV0IY3m';
+global.mysticbot = 'https://whatsapp.com/channel/0029VaTTAnJF6sn1CkV0IY3m';
+global.waitt = '*[ ⏳ ] جار التحميل ياورع⚡...*';
+global.waittt = '*[ ⏳ ] جار التحميل ياورع🐒...*';
+global.waitttt = '*[ ⏳ ] جار التحميل ياورع☠️...*';
+global.nomorown = '201159106301';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
