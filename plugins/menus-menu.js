@@ -28,53 +28,52 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `${tradutor.texto1[0]}
+    const str = `*مرحبا بك في 𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇⚡*
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
+*منور ياقلب ايتاتشي 🐒✨*
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
+*قائمة المطورين يابرو🔮*
+❖¦𝐿𝐼𝑇𝐸
+☎️+201159106301
+❖¦𝑁𝐴𝑅𝑈𝑇𝛩
+☎️+201224563219
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
 
-${tradutor.texto1[1]} ${taguser}
+*𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇*
 
-${tradutor.texto1[2]}
-
-${tradutor.texto1[3]} ${level}
-${tradutor.texto1[4]} ${exp}
-${tradutor.texto1[5]} ${role}
-${tradutor.texto1[6]} ${limit}
-${tradutor.texto1[7]} ${money}
-${tradutor.texto1[8]} ${joincount}
-${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
- ${readMore}
-
- ${tradutor.texto1[10]}
-  
-  ▢ _${usedPrefix}menuaudios_
-  ▢ _${usedPrefix}menuanimes_
-  ▢ _${usedPrefix}labiblia_ (🔞)
-
- 
-  ${tradutor.texto1[11]}
-
-  ▢ _${usedPrefix}terminosycondiciones_
-  ▢ _${usedPrefix}grupos_
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
+  *❖¦قسم الجروبات*
+  *∆¦.ق1*
+  *❅•━━━❆┇•⚡•┇❆━━━•❅*
+  *❖¦قسم الانمي*
+  *∆¦.ق2*
+  *❅•━━━❆┇•⚡•┇❆━━━•❅*
   ▢ _${usedPrefix}estado_
+  *❅•━━━❆┇•⚡•┇❆━━━•❅*
   ▢ _${usedPrefix}infobot_
+  *❅•━━━❆┇•⚡•┇❆━━━•❅*
   ▢ _${usedPrefix}speedtest_
+  *❅•━━━❆┇•⚡•┇❆━━━•❅*
   ▢ _${usedPrefix}donar_
-  ▢ _${usedPrefix}owner_
-  ▢ _${usedPrefix}script_
-  ▢ _${usedPrefix}reporte *<txt>*_
-  ▢ _${usedPrefix}join *<wagp_url>*_
+  *❅•━━━❆┇•⚡•┇❆━━━•❅*
+  ▢ _${usedPrefix}المطور.
+  *❅•━━━❆┇•⚡•┇❆━━━•❅*
+  ▢ _${usedPrefix}ابلاغ.
+  *❅•━━━❆┇•⚡•┇❆━━━•❅*
+  ▢ _${usedPrefix}join.
+  *❅•━━━❆┇•⚡•┇❆━━━•❅*
   ▢ _${usedPrefix}fixmsgespera_
-  ▢ _bot_ (sin prefijo)
-
-
-  ${tradutor.texto1[12]}
-
+  *❅•━━━❆┇•⚡•┇❆━━━•❅*
+  
+  *𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇*
+  
+  *❅•━━━❆┇•⚡•┇❆━━━•❅*
   ▢ _${usedPrefix}serbot --code_
   ▢ _${usedPrefix}serbot_
   ▢ _${usedPrefix}deletebot_
   ▢ _${usedPrefix}token_
   ▢ _${usedPrefix}stop_
   ▢ _${usedPrefix}bots_
-  ▢
   ▢ _${usedPrefix}enable restrict_
   ▢ _${usedPrefix}disable restrict_
   ▢ _${usedPrefix}enable autoread_
@@ -89,10 +88,11 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ▢ _${usedPrefix}disable audios_bot_
   ▢ _${usedPrefix}enable antiprivado_
   ▢ _${usedPrefix}disable antiprivado_
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
   
-
-  ${tradutor.texto1[13]}
-
+*𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇*
+  
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
   ▢ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
   ▢ _${usedPrefix}fake *<txt1> <@tag> <txt2>*_
   ▢ _${usedPrefix}ppt *<papel / tijera /piedra>*_
@@ -128,10 +128,11 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ▢ _${usedPrefix}ruleta
   ▢ _${usedPrefix}suerte
   ▢ _${usedPrefix}wordfind_
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
 
+*𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇*
 
-  ${tradutor.texto1[14]}
-
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
   ▢ _${usedPrefix}enable *welcome*_
   ▢ _${usedPrefix}disable *welcome*_
   ▢ _${usedPrefix}enable *modohorny*_
@@ -158,10 +159,11 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ▢ _${usedPrefix}disable *modoadmin*_
   ▢ _${usedPrefix}enable *antidelete*_
   ▢ _${usedPrefix}disable *antidelete*_
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
 
+*𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇*
 
-  ${tradutor.texto1[15]}
-
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
  ▢ _${usedPrefix}play *<txt>*_
  ▢ _${usedPrefix}play2 *<txt>*_
  ▢ _${usedPrefix}play.1 *<txt>*_
@@ -191,12 +193,9 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
  ▢ _${usedPrefix}soundcloud *<txt>*_
  ▢ _${usedPrefix}stickerpack *<url>*_
  ▢ _${usedPrefix}wallpaper *<txt>*_ 
- ▢ _${usedPrefix}dapk2 *<url>*_
- ▢ _${usedPrefix}xnxxdl *<url>*_ (🔞)
- ▢ _${usedPrefix}xvideosdl *<url>*_ (🔞)
-
-
- ${tradutor.texto1[16]}
+ *❅•━━━❆┇•⚡•┇❆━━━•❅*
+ *𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇*
+ *❅•━━━❆┇•⚡•┇❆━━━•❅*
 
   ▢ _${usedPrefix}githubsearch *<txt>*_
   ▢ _${usedPrefix}pelisplus *<txt>*_
@@ -210,10 +209,11 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ▢ _${usedPrefix}wikipedia *<txt>*_
   ▢ _${usedPrefix}ytsearch *<txt>*_
   ▢ _${usedPrefix}playstore *<txt>*_
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
 
+*𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇*
 
-  ${tradutor.texto1[17]}
-
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
   ▢ _${usedPrefix}add *num>*_
   ▢ _${usedPrefix}kick *<@tag>*_
   ▢ _${usedPrefix}kick2 *<@tag>*_
@@ -242,10 +242,11 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ▢ _${usedPrefix}destraba_
   ▢ _${usedPrefix}setpp *<img>*_
   ▢ _admins *<txt>*_ ${tradutor.texto1[31]}
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
 
-
-  ${tradutor.texto1[18]}
-
+*𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇*
+                           
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
   ▢ _${usedPrefix}toanime *<img>*_
   ▢ _${usedPrefix}togifaud *<video>*_
   ▢ _${usedPrefix}toimg *<sticker>*_
@@ -256,10 +257,11 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ▢ _${usedPrefix}tourl *<video / img / audio>*_
   ▢ _${usedPrefix}tts *<idioma> <txt>*_
   ▢ _${usedPrefix}tts *<efecto> <txt>*_
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
 
-
-  ${tradutor.texto1[19]}
-
+*𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇*
+  
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
   ▢ _${usedPrefix}logos *<efecto> <txt>*_
   ▢ _${usedPrefix}logochristmas *<txt>*_
   ▢ _${usedPrefix}logocorazon *<txt>*_
@@ -270,18 +272,20 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ▢ _${usedPrefix}itssostupid_
   ▢ _${usedPrefix}pixelar_
   ▢ _${usedPrefix}blur_
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
 
+*𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇*
 
-  ${tradutor.texto1[20]}
-
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
   ▢ _${usedPrefix}piropo_
   ▢ _${usedPrefix}consejo_
   ▢ _${usedPrefix}fraseromantica_
   ▢ _${usedPrefix}historiaromantica_
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
 
-
-  ${tradutor.texto1[21]}
-
+*𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇*
+  
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
   ▢ _${usedPrefix}kpop *<blackpink/exo/bts>*_
   ▢ _${usedPrefix}cristianoronaldo_
   ▢ _${usedPrefix}messi_
@@ -309,12 +313,11 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ▢ _${usedPrefix}hacker_
   ▢ _${usedPrefix}planeta_
   ▢ _${usedPrefix}randomprofile_
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
 
+  *𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇*
 
-  ${tradutor.texto1[22]}
-
-  ${tradutor.texto1[23]}
-
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
   ▢ _${usedPrefix}bass_
   ▢ _${usedPrefix}blown_
   ▢ _${usedPrefix}deep_
@@ -329,15 +332,16 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ▢ _${usedPrefix}tupai_
 
 
-  ${tradutor.texto1[24]}
+  *𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇*
 
   ▢ _${usedPrefix}start_
   ▢ _${usedPrefix}next_
   ▢ _${usedPrefix}leave_
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
 
+  *𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇*
 
-  ${tradutor.texto1[25]}
- 
+ *❅•━━━❆┇•⚡•┇❆━━━•❅*
   ▢ _${usedPrefix}inspect *<wagc_url>*_
   ▢ _${usedPrefix}chatgpt *<txt>*_
   ▢ _${usedPrefix}delchatgpt
@@ -367,10 +371,11 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ▢ _${usedPrefix}igstalk *<usr>*_
   ▢ _${usedPrefix}tiktokstalk *<usr>*_
   ▢ _${usedPrefix}img *<txt>*_
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
 
+  *𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇*
 
-  ${tradutor.texto1[26]}
-
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
   ▢ _${usedPrefix}adventure_
   ▢ _${usedPrefix}cazar_
   ▢ _${usedPrefix}cofre_
@@ -391,10 +396,11 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ▢ _${usedPrefix}crime
   ▢ _${usedPrefix}transfer *<tipo> <cant> <@tag>*_
   ▢ _${usedPrefix}unreg *<sn>*_
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
 
+  *𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇*
 
-  ${tradutor.texto1[27]}
-
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
   ▢ _${usedPrefix}sticker *<responder a img o video>*_
   ▢ _${usedPrefix}sticker *<url>*_
   ▢ _${usedPrefix}sticker2 *<responder a img o video>*_
@@ -421,10 +427,11 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ▢ _${usedPrefix}wm *<packname> <autor>*_
   ▢ _${usedPrefix}stickermarker *<efecto> <img>*_
   ▢ _${usedPrefix}stickerfilter *<efecto> <img>*_
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
 
-
-  ${tradutor.texto1[28]}
-
+*𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇*
+  
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
   ▢ _> *<funcion>*_
   ▢ _=> *<funcion>*_
   ▢ _$ *<funcion>*_
@@ -491,7 +498,8 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ▢ _${usedPrefix}addcmd *<txt>*_
   ▢ _${usedPrefix}delcmd_
   ▢ _${usedPrefix}saveimage_
-  ▢ _${usedPrefix}viewimage_`.trim();
+  ▢ _${usedPrefix}viewimage_
+  *❅•━━━❆┇•⚡•┇❆━━━•❅*`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
@@ -505,7 +513,7 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
     conn.reply(m.chat, tradutor.texto1[29], m);
   }
 };
-handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i;
+handler.command = /^(|المهام|مهام)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
