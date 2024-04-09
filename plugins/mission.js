@@ -19,7 +19,7 @@ let handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPr
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
-let videoUrl = 'https://telegra.ph/file/edc548e7f0ec1a6e684a3.mp4';
+let imageUrl = 'https://telegra.ph/file/d83edb7f7f076ee9adb53.jpg';
   let vn = './media/menu.mp3';
   const user = global.db.data.users[m.sender];
   const {money, joincount} = global.db.data.users[m.sender];
@@ -36,28 +36,28 @@ let readMore = more.repeat(900)
   const taguser = '@' +  m.sender.split('@s.whatsapp.net')[0];
 let str = ` 
 *◞♥️بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ♥️◜*
- *❀✦═══ •『⚔️』• ═══✦❀*
+ *❅•━━━❆┇•⚡•┇❆━━━•❅*
 *◞مرحبا بكم في هاري بوت🤖◜*
-*❀✦═══ •『⚔️』• ═══✦❀*
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
 *◞❐ أهـلا وسـهـلاً بـك يـا ${taguser}
-*◞❐ إسـم الـبـوت ⇠『HARRY』◈◜*
-*◞❐ إسـم الـمـنـصـة ⇠『HEROKU』◈◜*
-*◞❐ الـمـطـور ⇠『LITE ELMOZ3G』◈◜*
+*◞❐ إسـم الـبـوت ⇠『𝐼𝑇𝐴𝐶𝐻𝐼』◈◜*
+*◞❐ إسـم الـمـنـصـة ⇠『𝐻𝐸𝑅𝛩𝐾𝑈』◈◜*
+*◞❐ الـمـطـورين ⇠『𝐿𝐼𝑇𝐸&𝑁𝐴𝑅𝑈𝑇𝛩』◈◜*
 *◞❐ عـدد الـمـسـتـخـدمـيـن ${rtotalreg}
 *◞❐ وقـت الـتـشـغـيـل ${uptime}
 *◞❐ الـتـوقـيـت ${date}
-*◞❐ الـإصـدار الـجـديـد ⇠『V.4』◈◜*
-*◞❐ لـطـلـب قـائـمـة الـأوامـر إكـتـب ⇠『المهام』◈◜*
-
+*◞❐ الـإصـدار الـجـديـد ⇠『V10』◈◜*
+*◞❐ لـطـلـب قـائـمـة الـأوامـر إكـتـب ⇠『.المهام』◈◜*
+*❅•━━━❆┇•⚡•┇❆━━━•❅*
 *◞❐ مـلاحـظـة 🛑 ◈◜*
 *◞❐ يـجـب عـلـيـك كـتـابـة نـقـطـة قـبـل كـل أمـر مـثـل ⇠ 『 .اوامر 』◈◜*
 
-*جروب الدعم إذا حصل اي عطل🎩*
-*https://chat.whatsapp.com/DXvGjwluwsaDiaWgXYGzVW*
+*🎩🙌قناة البوت لي معرفة التحديثات القادمة*
+*https://whatsapp.com/channel/0029VaTTAnJF6sn1CkV0IY3m*
 ‬`.trim();
 
 conn.sendMessage(m.chat, {
-        video: { url: videoUrl }, caption: str,
+        image: { url: imageUrl }, caption: str,
   mentions: [m.sender,global.conn.user.jid],
   gifPlayback: true,gifAttribution: 0
     }, { quoted: m });
