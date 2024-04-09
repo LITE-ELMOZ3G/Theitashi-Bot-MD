@@ -29,16 +29,16 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
-║    ◉— *𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭* —◉
+║    ◉— *𝑇𝐻𝐸 𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇* —◉
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ *𝗛ola, ${taguser}*
+║➤ *مرحبا يا, ${taguser}*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-╰═══╡✯✯✯✯✯✯✯✯✯╞═══╯
+╰═══╡❅•━━━❆┇•⚡•┇❆━━━•❅╞═══╯
 
 
 
 ┏━━━━━━━━━━━━━━━━┓
-┃ *<𝐌𝐄𝐍𝐔 𝐀𝐔𝐃𝐈𝐎𝐒/>*
+┃ *🔇مرحبا بك في قسم الصوتيات*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣ *- ${_translate.plugins.menu_audios.texto1}*
 ┣ ඬ⃟🔊 _Quien es tu sempai botsito 7w7_
@@ -97,7 +97,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     conn.reply(m.chat, tradutor.texto2, m);
   }
 };
-handler.command = /^(menu2|audios|menú2|memu2|menuaudio|menuaudios|memuaudios|memuaudio|audios|keyaudio|keyaudios)$/i;
+handler.command = /^(ق3|قسم الصوتيات|menú2|memu2|menuaudio|menuaudios|memuaudios|memuaudio|audios|keyaudio|keyaudios)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
